@@ -1,6 +1,6 @@
 # qrcode
 ## Pré-requis testé sur raspberry pi (armhf)
-1. Modules pythons/PIP3
+1. Modules python/PIP3
 * pillow (PIL)
 * pyzbar
 * zbar
