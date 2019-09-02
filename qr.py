@@ -13,6 +13,6 @@ regle = r"(otpauth\:\/\/totp\/)(\w+)(\?secret\=)([A-Z0-9]{64})(&issuer=)([\w+])"
 regle = r"(otpauth:\/\/totp\/)(.+)(:)(.+)(\?secret=)([A-Z0-9]{64})(\&issuer\=)(.+)"
 res = re.match(regle, txt)
 
-new_qr = "otpauth://totp/" + "nom_du_compte" + ":" + res.group(4) + "?secret=" + res.group(6) + "&issuer=" + "SG-SRO"
+new_qr = "otpauth://totp/" + "nom_du_compte" + ":" + res.group(4) + "?secret=" + res.group(6) + "&issuer=" + "Issuer"
 img = qrcode.make(new_qr)
 img.show()
