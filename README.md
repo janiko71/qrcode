@@ -37,3 +37,6 @@ __Point important__ : la mise-au-point sur la caméra est manuelle ! Les derniè
 1. S'il n'y a que des fichiers de type `.whl`, alors il faut lancer la commande :
 
   `sudo pip3 install pyzbar-x.x.x-none-any.whl`
+  
+# Autres références
+* https://pillow.readthedocs.io/en/3.1.x/reference/Image.html
