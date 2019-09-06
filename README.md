@@ -6,7 +6,7 @@ L'objectif est d'avoir un boîtier capable de lire un QR Code tout en étant *d�
 * Une caméra v2 officielle
 # Installation
 ## Installation de l'OS
-Je suis parti d'une installation Noobs simple (donc Raspbian), sans aucune option particulière. Cette installation contiendra de nombreux packages et modules inutiles, qu'on peut enlever aisément.
+Je suis parti d'une installation Noobs simple (donc Raspbian), sans aucune option particulière. Cette installation contiendra de nombreux packages et modules inutiles, qu'on peut enlever aisément. Tout package supplémentaire doit être chargé sur le site officiel (http://archive.raspbian.org/raspbian/pool/main/).
 ## Installation de la caméra
 Il suffit de suivre le [tutoriel officiel](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera).
 Une fois la connexion réalisée, il faut tester la caméra, avec les commandes suivantes :
