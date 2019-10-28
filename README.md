@@ -4,7 +4,7 @@ L'objectif est d'avoir un boîtier capable de lire un QR Code tout en étant *d�
 ## Matériel utilisé
 * Un Raspberry Pi 3 modèle B+
 * Une caméra v2 officielle
-
+xxx
 # Installation
 ## Installation de l'OS
 Je suis parti d'une installation Noobs simple (donc Raspbian), sans aucune option particulière. Cette installation contiendra de nombreux packages et modules inutiles, qu'on peut enlever aisément. Tout package supplémentaire doit être chargé sur le site officiel (http://archive.raspbian.org/raspbian/pool/main/).
