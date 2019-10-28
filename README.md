@@ -4,10 +4,11 @@ L'objectif est d'avoir un boîtier capable de lire un QR Code tout en étant *d�
 ## Matériel utilisé
 * Un Raspberry Pi 3 modèle B+
 * Une caméra v2 officielle
-xxx
+
 # Installation
 ## Installation de l'OS
 Je suis parti d'une installation Noobs simple (donc Raspbian), sans aucune option particulière. Cette installation contiendra de nombreux packages et modules inutiles, qu'on peut enlever aisément. Tout package supplémentaire doit être chargé sur le site officiel (http://archive.raspbian.org/raspbian/pool/main/).
+
 ## Installation de la caméra
 Il suffit de suivre le [tutoriel officiel](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera).
 Une fois la connexion réalisée, il faut tester la caméra, avec les commandes suivantes :
@@ -18,6 +19,7 @@ Par défaut, une vidéo de 5 secondes sera enregistrée. L'ensemble de paramètr
 * https://www.raspberrypi.org/documentation/raspbian/applications/camera.md
 
 __Point important__ : la mise-au-point sur la caméra est manuelle ! Les dernières versions de la caméra sont livrées avec un outil pour faire la mise au point : il faut le placer sur l'objectif et tourner jusqu'à ce que ça convienne. 
+
 ## Pré-requis logiciel (Raspberry pi, armhf)
 1. Modules python/PIP3
 * pillow (PIL)
@@ -29,10 +31,12 @@ __Point important__ : la mise-au-point sur la caméra est manuelle ! Les derniè
 * zbar-tools 
 * ~~python-zbar~~
 * libzbar-dev (?)
+
 ### Installation de QRCode
 1. Télécharger les sources sur PyPi.org (https://pypi.org/project/qrcode/#files)
 1. Dézipper les fichiers et se rendre dans le répertoire obtenu
 1. Lancer la commande `sudo python3 setup.py install` 
+
 ### Installation de pyzbar
 1. Télécharger les sources sur PyPi.org (https://pypi.org/project/pyzbar/#files)
 1. S'il n'y a que des fichiers de type `.whl`, alors il faut lancer la commande :
